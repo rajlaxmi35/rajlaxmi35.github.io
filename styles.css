@@ -1,11 +1,9 @@
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and layout */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -43,3 +41,30 @@ a {
     color: #007acc;
     text-decoration: none;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007acc; 
+    color: #fff; 
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #fff; 
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #cc0000; 
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 3px solid #007acc; 
+    margin-bottom: 20px;
+}
+
