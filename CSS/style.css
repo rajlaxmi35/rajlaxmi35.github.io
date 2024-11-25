@@ -1,0 +1,202 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;  /* Soft light blue background for the body */
+    color: #333;
+}
+.header .tagline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff; /* Adjust to contrast with the background */
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#intro {
+    background: #4E7B8B; /* Light blue-gray background */
+    color: white;
+    padding: 40px 0;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-photo img {
+    width: 150px; /* Set the desired size */
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px; /* Space between photo and text */
+    margin-left: -40px; /* Move the photo further left */
+}
+
+.intro-text {
+    text-align: right; /* Change this to right-align the text */
+    flex-grow: 1; /* Make the text take up remaining space */
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.intro-text h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.intro-text p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.intro-text a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+.intro-text a:hover {
+    text-decoration: underline;
+}
+
+.intro-text i {
+    font-size: 30px; /* Icon size */
+    margin-right: 15px; /* Space between icons */
+    margin: 10px;
+    color: #333; /* Default icon color */
+    cursor: pointer; /* Show pointer on hover */
+    transition: color 0.3s ease; /* Smooth color change */
+}
+
+.intro-text a:hover i {
+    color: #0077b5; /* Change color on hover (LinkedIn blue) */
+}
+
+
+
+
+/* Header */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #2a3d66, #5a8a9f); /* Gradient from dark blue to light blue */
+    color: #fff;
+    padding: 3rem 1rem;
+    border-bottom: 4px solid #fff;  /* A clean white border at the bottom */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);  /* Adds subtle shadow for depth */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+header h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+/* Professional Summary Section */
+#professional-summary {
+    background-color: #e6f2f7;  /* Light blue-gray background to complement the header */
+    padding: 2rem 3rem;
+    margin: 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#professional-summary h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+#professional-summary p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Following Sections with a Different Look */
+section {
+    padding: 2rem 3rem;
+    margin: 1.5rem 0;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);  /* Light shadow to create depth */
+    border-left: 4px solid #2a3d66; /* Blue left border for a nice touch */
+}
+
+/* Add a gradient to alternate sections for a different feel */
+section:nth-of-type(odd) {
+    background: linear-gradient(135deg, #f4f4f4, #dfe8f1); /* Light gray to soft blue gradient */
+}
+
+section:nth-of-type(even) {
+    background-color: #f9f9f9; /* Soft gray background for even sections */
+}
+
+/* Section Headings */
+section h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+section p, section ul li {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section ul li {
+    margin: 0.5rem 0;
+}
+
+/* Links in the sections */
+a {
+    color: #2a3d66;  /* Blue color for links */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
